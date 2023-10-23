@@ -17,12 +17,15 @@ form.addEventListener("submit", (e) => {
 
   const questionInput = document.getElementById("question-input");
 
-  const random = Math.floor(Math.random() * answers.length) + 1;
+  const random = Math.floor(Math.random() * answers.length);
 
   const answer = answers[random];
   answerField.classList.add("bounce-in-top");
   answerField.textContent = answer;
   questionInput.value = "";
+
+  console.log(answer);
+  console.log(random);
 
   setTimeout(() => {
     answerField.classList.remove("bounce-in-top");
