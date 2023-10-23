@@ -7,6 +7,8 @@ const answers = [
   "Ask me later",
   "I don't know",
   "Follow your Heart",
+  "I don't think so",
+  "Sure!",
 ];
 
 const form = document.querySelector("form");

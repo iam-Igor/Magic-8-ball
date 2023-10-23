@@ -1,6 +1,7 @@
 .container-fluid {
   padding-bottom: 3em;
   background-color: lightgray;
+  height: 100vh;
 }
 
 .bounce-in-top {
